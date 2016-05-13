@@ -13,7 +13,6 @@ namespace SampleBot
     [Serializable]
     internal class SampleDialog : LuisDialog<Employee>
     {
-    //[LuisModel("a6dce21f-1619-4623-96c2-20fdd6762908", "25d026cb056d4e34b923a80bcfc939c0")]
         private static IForm<Employee> BuildForm()
         {
             var builder = new FormBuilder<Employee>();
